@@ -1,4 +1,4 @@
-# 🌐 DNS & Subdomain Enumeration
+# 🌐 DNS & Enumeracja subdomen
 
 Moje notatki z pokoju "Subdomain Enumeration" (ścieżka Junior Penetration Tester).
 
