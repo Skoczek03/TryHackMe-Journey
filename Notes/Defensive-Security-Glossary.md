@@ -1,26 +1,27 @@
-# 🏰 Defensive Security Glossary
+# 🏰 Słownik Bezpieczeństwa Defensywnego (Blue Team)
 
-Key terms and concepts related to Blue Teaming and defensive operations.
+Kluczowe pojęcia i koncepcje związane z defensywą i pracą w zespołach Blue Team.
 
-## Roles & Teams
-* **Red Team:** Offensive security professionals who simulate attacks to test defenses.
-* **Blue Team:** Defensive security professionals responsible for protecting the organization's infrastructure and responding to incidents.
-* **Purple Team:** A collaborative approach where Red and Blue teams work together to improve security posture.
+## Role i Zespoły (Teams)
+* **Red Team (Atakujący):** Specjaliści ds. ofensywnego bezpieczeństwa, którzy symulują ataki hakerskie, aby przetestować obronę firmy.
+* **Blue Team (Obrońcy):** Specjaliści ds. defensywnego bezpieczeństwa odpowiedzialni za ochronę infrastruktury organizacji i reagowanie na incydenty.
+* **Purple Team (Współpraca):** Podejście polegające na współpracy zespołów Red i Blue w celu wymiany wiedzy i szybszej poprawy bezpieczeństwa.
 
-## Key Concepts
+## Kluczowe Koncepcje
 
 ### SOC (Security Operations Center)
-A centralized facility/team that monitors an organization's security 24/7. Their goal is to detect, analyze, and respond to cybersecurity incidents.
+Centrum Operacji Bezpieczeństwa. To scentralizowana jednostka lub zespół monitorujący bezpieczeństwo organizacji w trybie 24/7. Ich głównym celem jest wykrywanie, analiza i reagowanie na incydenty cyberbezpieczeństwa.
 
 ### SIEM (Security Information and Event Management)
-A software solution that aggregates and analyzes log data from various sources (firewalls, servers, antivirus) in real-time to detect suspicious activity.
-* *Examples:* Splunk, ELK Stack.
+Rozwiązanie programowe, które agreguje i analizuje logi (dzienniki zdarzeń) z różnych źródeł (zapory sieciowe, serwery, antywirusy) w czasie rzeczywistym, aby wykryć podejrzaną aktywność.
+* *Przykłady:* Splunk, ELK Stack, Wazuh.
 
 ### DFIR (Digital Forensics and Incident Response)
-* **Digital Forensics:** The process of collecting and analyzing evidence from digital devices to determine what happened during an attack.
-* **Incident Response:** The organized approach to addressing and managing the aftermath of a security breach or cyberattack.
+Informatyka Śledcza i Reagowanie na Incydenty.
+* **Digital Forensics (Informatyka śledcza):** Proces zbierania i analizy dowodów z urządzeń cyfrowych w celu ustalenia, co dokładnie wydarzyło się podczas ataku.
+* **Incident Response (Reagowanie na incydenty):** Zorganizowane podejście do zarządzania skutkami naruszenia bezpieczeństwa lub ataku cybernetycznego (procedury działania).
 
-### Malware Analysis
-The process of understanding the behavior and purpose of a suspicious file (malware).
-* **Static Analysis:** Examining the code without running it.
-* **Dynamic Analysis:** Running the malware in a safe environment (sandbox) to observe its actions.
+### Malware Analysis (Analiza Złośliwego Oprogramowania)
+Proces zrozumienia zachowania i celu podejrzanego pliku (malware).
+* **Static Analysis (Analiza statyczna):** Badanie kodu pliku bez jego uruchamiania (np. sprawdzanie sum kontrolnych, ciągów znaków).
+* **Dynamic Analysis (Analiza dynamiczna):** Uruchamianie wirusa w bezpiecznym, odizolowanym środowisku (tzw. sandbox), aby obserwować, co próbuje zrobić (np. z jakimi serwerami się łączy).
