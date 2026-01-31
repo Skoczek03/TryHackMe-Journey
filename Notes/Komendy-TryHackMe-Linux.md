@@ -15,8 +15,7 @@ Gobuster - narzędzie do brute-forcowania subdomen
 ffuf - 
 - `ffuf -w /usr/share/wordlists/SecLists/Discovery/DNS/namelist.txt -H "Host: FUZZ.acmeitsupport.thm" -u http://MACHINE_IP`
 
-Sublist3r - 
-Użycie z konkretnymi portami i wątkami:
+Sublist3r Użycie z konkretnymi portami i wątkami - 
 - `python3 sublist3r.py -d przyklad.com -p 80,443 -t 50`
 
 ## Przydatne linki
