@@ -15,9 +15,12 @@ Gobuster - narzędzie do brute-forcowania subdomen
 ffuf -
 - ffuf -w /usr/share/wordlists/SecLists/Discovery/DNS/namelist.txt -H "Host: FUZZ.acmeitsupport.thm" -u http://MACHINE_IP
 
-## Subdomeny
+## Przydatne linki
 Jak znaleść subdomeny danej strony internetowej
 Link: https://crt.sh
+Identyfikacja technologi strony www
+Link: https://www.wappalyzer.com/
+
 
 
 
