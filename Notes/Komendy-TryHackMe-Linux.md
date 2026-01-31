@@ -9,7 +9,8 @@ Link: https://explainshell.com
 
 ## TryHackMe komendy
 
-
+Gobuster - narzędzie do brute-forcowania subdomen: 
+- gobuster dns -d przyklad.com -w /usr/share/wordlists/SecLists/Discovery/DNS/common.txt
 
 ## Subdomeny
 Jak znaleść subdomeny danej strony internetowej
