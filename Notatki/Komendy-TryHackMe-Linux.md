@@ -34,7 +34,7 @@ Sublist3r - Służy do automatycznego wyszukiwania subdomen przy użyciu publicz
 - LFI
 - RFI
 - XSS
-- HTML
+- HTTP
 - RCE
 - 
 
