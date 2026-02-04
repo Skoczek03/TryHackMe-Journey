@@ -43,6 +43,7 @@ Sublist3r - Służy do automatycznego wyszukiwania subdomen przy użyciu publicz
 - TCP
 - UDP
 - VPN
+- SSH
 
 
 
