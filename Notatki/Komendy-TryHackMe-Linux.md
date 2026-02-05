@@ -28,6 +28,8 @@ Sublist3r - Służy do automatycznego wyszukiwania subdomen przy użyciu publicz
 - dekodowanie base64 na UTF-8 https://www.base64decode.org
 - system wykrywania intruzów https://www.snort.org
 - backup wybranych folderów https://crontab-generator.org / https://crontab.guru
+- --------------------------- https://www.exploit-db.com
+- --------------------------- https://www.cve.org
 
 ## Akronimy
 
